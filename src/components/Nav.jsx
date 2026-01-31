@@ -20,6 +20,19 @@ export default function Nav() {
           <img src="/asset/logo.png" alt="Jagaban Rangers Solidarity Movement" />
         </Link>
         <div className={`nav-right ${open ? 'open' : ''}`}>
+          {open && (
+            <button
+              type="button"
+              className="nav-close"
+              aria-label="Close menu"
+              onClick={() => setOpen(false)}
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          )}
           <nav className="nav-links">
             {navItems.map(({ path, label }) => (
               <Link
@@ -147,6 +160,34 @@ export default function Nav() {
         }
         .nav-toggle[aria-expanded="true"] span:nth-child(3) {
           transform: translateY(-7px) rotate(-45deg);
+        }
+        .nav-close {
+          display: none;
+        }
+        .nav-right.open .nav-close {
+          display: flex;
+          position: fixed;
+          top: max(1rem, env(safe-area-inset-top));
+          right: max(1rem, env(safe-area-inset-right));
+          width: 44px;
+          height: 44px;
+          align-items: center;
+          justify-content: center;
+          background: var(--gray-100);
+          border: none;
+          border-radius: 50%;
+          cursor: pointer;
+          z-index: 101;
+          color: var(--blue);
+          transition: background 0.2s, transform 0.2s;
+        }
+        .nav-right.open .nav-close:hover {
+          background: var(--gray-200);
+          transform: scale(1.05);
+        }
+        .nav-right.open .nav-close svg {
+          width: 24px;
+          height: 24px;
         }
         .nav-right.open {
           display: flex;

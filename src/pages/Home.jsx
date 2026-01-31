@@ -177,7 +177,14 @@ export default function Home() {
         .hero-banner-bg {
           position: absolute;
           inset: 0;
-          background: url('/asset/banner.webp') center center / cover no-repeat;
+          background: url('/asset/banner.webp') right center / cover no-repeat;
+          transform: scaleX(-1);
+        }
+        @media (min-width: 768px) {
+          .hero-banner-bg { 
+            transform: none;
+            background-position: center center;
+          }
         }
         .hero-banner-overlay {
           position: absolute;
