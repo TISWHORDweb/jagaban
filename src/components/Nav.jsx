@@ -6,7 +6,6 @@ const navItems = [
   { path: '/about', label: 'About Us' },
   { path: '/programs', label: 'Programs & Outreaches' },
   { path: '/partnerships', label: 'Partnerships' },
-  { path: '/contact', label: 'Contact Us' },
 ]
 
 export default function Nav() {
@@ -46,7 +45,7 @@ export default function Nav() {
             ))}
           </nav>
           <Link to="/contact" className="nav-cta btn btn-primary" onClick={() => setOpen(false)}>
-            DONATE
+            PARTNER WITH US
           </Link>
         </div>
         <button

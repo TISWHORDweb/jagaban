@@ -5,7 +5,7 @@ export default function Home() {
   const quickLinks = [
     { path: '/about', title: 'About Us', desc: 'Who we are and our values' },
     { path: '/programs', title: 'Programs', desc: 'Medical outreaches and impact' },
-    { path: '/contact', title: 'Contact & Get Involved', desc: 'Donate, volunteer, get in touch' },
+    { path: '/contact', title: 'Contact & Get Involved', desc: 'Partner with us, volunteer, get in touch' },
   ]
 
   return (
@@ -22,7 +22,7 @@ export default function Home() {
               Honoring the visionary ideologies of His Excellency Bola Ahmed Tinubu—bringing hope, health, and solidarity to underserved communities across Nigeria.
             </p>
             <div className="hero-ctas">
-              <CTAButton>Donate Now</CTAButton>
+              <CTAButton>Contact Us for Partnership</CTAButton>
               <CTAButton variant="outline">Volunteer Today</CTAButton>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function Home() {
               Communities we serve often have little or no access to specialist care. By bringing medical teams and equipment to them, we reduce the burden of travel and cost—so that the poor and vulnerable can receive the same quality of care as anyone else.
             </p>
             <div className="featured-ctas">
-              <CTAButton>Donate Now</CTAButton>
+              <CTAButton>Contact Us for Partnership</CTAButton>
               <CTAButton variant="secondary">Volunteer Today</CTAButton>
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function Home() {
             Sponsor an outreach, volunteer as a Ranger, or donate to bring healthcare to those who need it most. Every action counts.
           </p>
           <div className="cta-buttons">
-            <CTAButton>Donate Now</CTAButton>
+            <CTAButton>Contact Us for Partnership</CTAButton>
             <CTAButton variant="secondary">Volunteer</CTAButton>
             <CTAButton variant="outline">Contact Us</CTAButton>
           </div>

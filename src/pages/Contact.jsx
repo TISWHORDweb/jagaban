@@ -3,7 +3,7 @@ import CTAButton from '../components/CTAButton'
 const getInvolvedWays = [
   { title: 'Sponsor an Outreach', desc: 'Fund surgeries, supplies, or logistics.' },
   { title: 'Volunteer as a Ranger', desc: 'Join scouting, organising, or on-ground support.' },
-  { title: 'Donate', desc: 'Support medical equipment and patient care.' },
+  { title: 'Partner With Us', desc: 'Support medical equipment and patient care.' },
   { title: 'Spread the Word', desc: 'Share our mission on social media.' },
 ]
 
@@ -32,7 +32,7 @@ export default function Contact() {
             ))}
           </div>
           <p className="get-involved-cta">
-            <CTAButton>Donate or Get Involved</CTAButton>
+            <CTAButton>Contact Us for Partnership</CTAButton>
           </p>
         </div>
       </section>
