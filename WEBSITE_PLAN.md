@@ -37,7 +37,7 @@ A **futuristic, high-impact** site for the Jagaban Rangers Solidarity Movement u
 |-------|----------------|
 | **logo.png** | Header/nav (left), footer; scale for favicon if needed (favicon.ico exists). |
 | **favicon.ico** | Browser tab. |
-| **benjamin.jpeg** | **Partnerships page:** Benjamin Olowejebutu portrait (e.g. hero or “Our Key Partner” section). |
+| **benjamin.jpeg** | **Partnerships page:** Benjamin Olowojebutu portrait (e.g. hero or “Our Key Partner” section). |
 | **bof_logo.jpeg** | **Partnerships page:** BOF logo beside Jagaban Rangers logo in “Our Key Partner” / logo strip. |
 | **mike_and_oba.jpeg** | **About Us:** “Who We Are” or “Rangers in action” — dignitaries/team. |
 | **mike.jpeg** | **About Us** or **Get Involved:** Team/leadership. |
@@ -107,7 +107,7 @@ Use **thumbnails** as clickable cards; each opens its **matching PDF** in a new 
 
 ### Partnerships
 
-- **Our Key Partner:** Benjamin Olowejebutu Foundation copy + **benjamin.jpeg** (portrait) + **bof_logo.jpeg** next to site logo.
+- **Our Key Partner:** Benjamin Olowojebutu Foundation copy + **benjamin.jpeg** (portrait) + **bof_logo.jpeg** next to site logo.
 - **“Outreach Brochures & Reports”:** Grid of **8 thumbnails** (abia, akwaibom, benue, crossriver, edo, imo, ondo, rivers); each **on click** opens the **matching PDF** (see table above). Optional labels under each thumbnail.
 - **Why Partner With Us:** Bullets + CTA to contact.
 

@@ -27,7 +27,7 @@ export default function Programs() {
             ))}
           </ul>
           <p>
-            These programs are tailored to specific community needs, ensuring maximum impact. Past outreaches have been held in rural and urban slums across states like Lagos, Abuja, and beyond. We partner with the Benjamin Olowejebutu Foundation and other reputable organisations to deliver life-changing procedures at no cost to beneficiaries.
+            These programs are tailored to specific community needs, ensuring maximum impact. Past outreaches have been held in rural and urban slums across states like Lagos, Abuja, and beyond. We partner with the Benjamin Olowojebutu Foundation and other reputable organisations to deliver life-changing procedures at no cost to beneficiaries.
           </p>
           <p>
             Each outreach is planned in close consultation with community leaders and local health workers. We prioritise conditions that are treatable with surgery but often go untreated due to cost—fibroids, hernias, lipomas, breast lumps, and similar ailments—so that families can regain their health and productivity without financial burden.

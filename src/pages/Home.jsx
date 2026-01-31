@@ -95,7 +95,7 @@ export default function Home() {
               Our recent medical outreach provided free surgeries and consultations to over 200 individuals. Thanks to our sponsors and partners, we addressed critical health issues like fibroids and hernias, embodying Jagaban's commitment to the masses.
             </p>
             <p>
-              We work hand-in-hand with the Benjamin Olowejebutu Foundation and other partners to ensure that financial barriers never prevent access to essential healthcare. Each camp includes consultations, screenings, and free surgeries for fibroids, lipomas, breast lumps, hernias, and other treatable conditions.
+              We work hand-in-hand with the Benjamin Olowojebutu Foundation and other partners to ensure that financial barriers never prevent access to essential healthcare. Each camp includes consultations, screenings, and free surgeries for fibroids, lipomas, breast lumps, hernias, and other treatable conditions.
             </p>
             <p>
               Communities we serve often have little or no access to specialist care. By bringing medical teams and equipment to them, we reduce the burden of travel and cost—so that the poor and vulnerable can receive the same quality of care as anyone else.

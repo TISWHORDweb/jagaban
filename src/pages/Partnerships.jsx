@@ -27,25 +27,25 @@ export default function Partnerships() {
 
       <section className="section partner-section">
         <div className="container">
-          <h2 className="section-title">Our Key Partner: Benjamin Olowejebutu </h2>
+          <h2 className="section-title">Our Key Partner: Benjamin Olowojebutu </h2>
           <div className="partner-intro">
             <div className="partner-logos">
               <img src="/asset/logo.png" alt="Jagaban Rangers Solidarity Movement" className="partner-logo jr" />
-              <img src="/asset/bof_logo.jpeg" alt="Benjamin Olowejebutu Foundation" className="partner-logo bof" />
+              <img src="/asset/bof_logo.jpeg" alt="Benjamin Olowojebutu Foundation" className="partner-logo bof" />
             </div>
             <div className="partner-content">
               <div className="partner-image-wrap">
-                <img src="/asset/benjamin.jpeg" alt="Benjamin Olowejebutu" className="partner-benjamin" />
+                <img src="/asset/benjamin.jpeg" alt="Benjamin Olowojebutu" className="partner-benjamin" />
               </div>
               <div className="partner-text">
                 <p>
-                  We are proud to partner with the Benjamin Olowejebutu Foundation, a renowned organization committed to providing free medical surgeries to Nigerians in need. Through this collaboration, we amplify our reach and expertise in delivering life-changing procedures for fibroids, lipomas, breast lumps, hernias, and more.
+                  We are proud to partner with the Benjamin Olowojebutu Foundation, a renowned organization committed to providing free medical surgeries to Nigerians in need. Through this collaboration, we amplify our reach and expertise in delivering life-changing procedures for fibroids, lipomas, breast lumps, hernias, and more.
                 </p>
                 <p>
                   The foundation's track record of successful interventions aligns perfectly with our mission, ensuring that financial barriers do not prevent access to essential healthcare. Together we have reached communities across Abia, Akwa Ibom, Benue, Cross River, Edo, Imo, Ondo, Rivers, and other states.
                 </p>
                 <p>
-                  The Benjamin Olowejebutu Foundation shares our belief in health equity and service to the masses—values at the heart of Jagaban's legacy. By combining our grassroots mobilisation with their medical capacity, we are able to bring free surgeries and consultations to hundreds of beneficiaries per outreach.
+                  The Benjamin Olowojebutu Foundation shares our belief in health equity and service to the masses—values at the heart of Jagaban's legacy. By combining our grassroots mobilisation with their medical capacity, we are able to bring free surgeries and consultations to hundreds of beneficiaries per outreach.
                 </p>
                 <CTAButton>Contact Us to Partner</CTAButton>
               </div>
@@ -58,7 +58,7 @@ export default function Partnerships() {
         <div className="container">
           <h2 className="section-title">Outreach Brochures & Reports</h2>
           <p className="brochures-intro">
-            Click any thumbnail to open the corresponding brochure or report (PDF). These documents detail our joint outreaches with the Benjamin Olowejebutu Foundation across different states.
+            Click any thumbnail to open the corresponding brochure or report (PDF). These documents detail our joint outreaches with the Benjamin Olowojebutu Foundation across different states.
           </p>
           <div className="thumbnails-grid">
             {THUMBNAIL_PDF_PAIRS.map(({ thumbnail, pdf, label }) => (
