@@ -64,11 +64,8 @@ export default function About() {
           <div className="leadership-content">
             <h2 className="section-title">Our Leadership</h2>
             <h3 className="leadership-name">Hon. Michael Amoji</h3>
-            {/* <p className="leadership-role">
-              Member, Social & Humanitarian Committee Southeast &amp; Deputy Director General
-            </p> */}
             <p>
-              Hon. Michael Amoji is the driving force behind the Jagaban Rangers Solidarity Movement. As Deputy Director General and a key member of the Social & Humanitarian Committee for the Southeast, he brings a rare blend of political insight and hands-on humanitarian commitment. Under his leadership, the movement has grown into a credible channel for delivering free medical care to underserved communities, aligning with the ideals of His Excellency Bola Ahmed Tinubu (Jagaban) and the broader vision of a healthier, more united Nigeria.
+              Hon. Michael Amoji is the National Coordinator and driving force behind the Jagaban Rangers Solidarity Movement. As a key member of the Social and Humanitarian Committee of the South East in the 2023 Presidential Campaign Council of H.E. Bola Ahmed Tinubu, he brings a rare blend of political insight and hands-on humanitarian commitment. Under his leadership, the movement has grown into a credible channel for delivering free medical care to underserved communities, aligning with the ideals of His Excellency Bola Ahmed Tinubu (Jagaban) and the broader vision of a healthier, more united Nigeria.
             </p>
             <p>
               His dedication to health equity and community empowerment has seen the movement partner with reputable foundations, mobilise sponsors, and execute multiple medical outreaches—touching hundreds of lives through free surgeries and consultations. Hon. Michael Amoji continues to inspire Rangers and partners alike to put service above self and to extend Jagaban's legacy of progressive leadership to the grassroots.
