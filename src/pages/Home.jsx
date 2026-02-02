@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      {/* Homepage banner – background image with overlay */}
+      {/* Homepage banner – logo as bg with overlay, jagabanlogo on right */}
       <section className="hero-banner">
         <div className="hero-banner-bg" />
         <div className="hero-banner-overlay" />
@@ -25,6 +25,9 @@ export default function Home() {
               <CTAButton>Contact Us for Partnership</CTAButton>
               <CTAButton variant="outline">Volunteer Today</CTAButton>
             </div>
+          </div>
+          <div className="hero-banner-logos">
+            <img src="/asset/jagabanlogo.png" alt="Jagaban" className="hero-logo hero-logo-jagaban" />
           </div>
         </div>
       </section>
@@ -177,14 +180,7 @@ export default function Home() {
         .hero-banner-bg {
           position: absolute;
           inset: 0;
-          background: url('/asset/banner.webp') right center / cover no-repeat;
-          transform: scaleX(-1);
-        }
-        @media (min-width: 768px) {
-          .hero-banner-bg { 
-            transform: none;
-            background-position: center center;
-          }
+          background: url('/asset/logo.png') center center / cover no-repeat;
         }
         .hero-banner-overlay {
           position: absolute;
@@ -196,6 +192,18 @@ export default function Home() {
           position: relative;
           z-index: 1;
           width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 2rem;
+        }
+        @media (min-width: 768px) {
+          .hero-banner-inner {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+          }
         }
         .hero-banner-content {
           color: var(--white);
@@ -204,6 +212,34 @@ export default function Home() {
         }
         @media (min-width: 480px) {
           .hero-banner-content { max-width: 640px; }
+        }
+        .hero-banner-logos {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          flex-shrink: 0;
+        }
+        @media (min-width: 768px) {
+          .hero-banner-logos { flex-direction: column; gap: 1.5rem; }
+        }
+        .hero-logo {
+          display: block;
+          max-width: 100%;
+          height: auto;
+          object-fit: contain;
+          filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
+        }
+        .hero-logo-jagaban {
+          max-height: 180px;
+          width: auto;
+        }
+        @media (min-width: 480px) {
+          .hero-logo-jagaban { max-height: 240px; }
+        }
+        @media (min-width: 768px) {
+          .hero-logo-jagaban { max-height: 300px; }
         }
         .hero-badge {
           display: inline-block;

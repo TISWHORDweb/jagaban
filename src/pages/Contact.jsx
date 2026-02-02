@@ -47,7 +47,7 @@ export default function Contact() {
             <li><strong>Email:</strong> <a href="mailto:Jagabanranger1@gmail.com">Jagabanranger1@gmail.com</a></li>
             <li><strong>Phone:</strong> <a href="tel:+2348035613162">+234 (0) 803-5613162</a></li>
             <li><strong>Address:</strong> No. 59 Asun Bur Street, Kado Estate Estate, Abuja.</li>
-            <li><strong>Social:</strong> Follow us on X (Twitter), Facebook, and Instagram @JagabanRangers</li>
+            <li><strong>Social:</strong> <a href="https://facebook.com/jagabanranger1" target="_blank" rel="noopener noreferrer">Facebook – jagabanranger1</a>, <a href="https://x.com/jagabanranger1" target="_blank" rel="noopener noreferrer">Twitter – jagabanranger1</a></li>
           </ul>
           <CTAButton>Contact Us</CTAButton>
         </div>
