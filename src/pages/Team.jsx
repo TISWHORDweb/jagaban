@@ -14,7 +14,7 @@ const teamImages = [
   '/asset/team/Prince-Yahya-Haliru-Dantoro.jpeg',
   '/asset/team/Dr-jimlas-opeyemi-ogunsakin.jpeg',
   '/asset/team/Chief-ikenna-Nicolas-ukwa.jpeg',
-  '/asset/team/Ms-Joan-okoduwa.jpeg',
+  '/asset/team/Hon-Joan-okoduwa.jpeg',
   '/asset/team/Eric-Iso-Anderson.jpeg',
   '/asset/team/Hon-Emmanuel-Bello.jpeg',
   '/asset/team/Hon-Uchenna-okorie.jpeg',
