@@ -46,7 +46,7 @@ export default function Contact() {
           <ul className="contact-details">
             <li><strong>Email:</strong> <a href="mailto:Jagabanranger1@gmail.com">Jagabanranger1@gmail.com</a></li>
             <li><strong>Phone:</strong> <a href="tel:+2348035613162">+234 (0) 803-5613162</a></li>
-            <li><strong>Address:</strong> No. 59 Asun Bur Street, Kado Estate Estate, Abuja.</li>
+            <li><strong>Address:</strong> No. 59 Asun Bur Street, Kado Estate, Abuja.</li>
             <li className="contact-social-row">
               <strong>Social:</strong>
               <span className="social-icons">

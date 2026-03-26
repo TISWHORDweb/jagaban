@@ -156,7 +156,7 @@ export default function Home() {
           <div className="cta-buttons">
             <CTAButton>Contact Us for Partnership</CTAButton>
             <CTAButton variant="secondary">Volunteer</CTAButton>
-            <CTAButton variant="outline">Contact Us</CTAButton>
+            {/* <CTAButton variant="outline">Contact Us</CTAButton> */}
           </div>
           <div className="cta-spacer" aria-hidden />
         </div>

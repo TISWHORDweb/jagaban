@@ -6,6 +6,7 @@ import Mission from './pages/Mission'
 import Programs from './pages/Programs'
 import Partnerships from './pages/Partnerships'
 import Contact from './pages/Contact'
+import Team from './pages/Team'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/programs" element={<Programs />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/partnerships" element={<Partnerships />} />
         <Route path="/get-involved" element={<Navigate to="/contact" replace />} />
         <Route path="/contact" element={<Contact />} />
