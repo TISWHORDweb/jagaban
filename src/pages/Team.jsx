@@ -2,7 +2,7 @@ const teamMembers = [
   { name: 'Prince Yahya Haliru Dantoro', title: 'Deputy National Co-ordinator' },
   { name: 'Dr Jimlas Opeyemi Ogunsakin', title: 'National Program Director' },
   { name: 'Chief Ikenna Nicolas Ukwa', title: 'Abia State Coordinator' },
-  { name: 'Ms Joan Okoduwa', title: 'National Treasurer' },
+  { name: 'Hon. Joan Okoduwa', title: 'National Treasurer' },
   { name: 'Hon. Eric Iso Anderson', title: 'Cross River State Coordinator' },
   { name: 'Hon. Emmanuel Bello', title: 'Taraba State Coordinator' },
   { name: 'Hon. Uchenna Okorie', title: 'National Secretary' },
