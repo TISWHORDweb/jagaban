@@ -7,6 +7,8 @@ const teamMembers = [
   { name: 'Hon. Emmanuel Bello', title: 'Taraba State Coordinator' },
   { name: 'Hon. Uchenna Okorie', title: 'National Secretary' },
   { name: 'Hon. John Zuofa', title: 'South-South Coordinator' },
+  { name: 'Hon. Felicia Adi', title: 'North East Coordinator' },
+  { name: 'Hon. Aisha Mustapha', title: 'North West Coordinator' },
   { name: 'Dr Bestman B Probel', title: 'Rivers State Coordinator' },
 ]
 
@@ -22,6 +24,12 @@ const teamImages = [
   '/asset/team/Dr-Bestman-B-Probel.jpeg',
 ]
 
+/** Filenames with spaces or unusual spelling — slug matching alone won't resolve these. */
+const teamImageOverrides = {
+  'Hon. Felicia Adi': `/asset/team/${encodeURIComponent('Hon. Felicia Adi.jpeg')}`,
+  'Hon. Aisha Mustapha': `/asset/team/${encodeURIComponent('Hon.Aisha Mustapha.jpeg')}`,
+}
+
 function slugify(value) {
   return value
     .toLowerCase()
@@ -31,6 +39,7 @@ function slugify(value) {
 }
 
 function getTeamImage(name) {
+  if (teamImageOverrides[name]) return teamImageOverrides[name]
   const memberSlug = slugify(name)
   return (
     teamImages.find((imagePath) => {
